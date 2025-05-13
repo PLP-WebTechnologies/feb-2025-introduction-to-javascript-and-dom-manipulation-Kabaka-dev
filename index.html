@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM Manipulation Assignment</title>
+    <style>
+        .highlight {
+            background-color: yellow;
+            font-weight: bold;
+        }
+        .box {
+            width: 100px;
+            height: 100px;
+            background-color: lightblue;
+            margin: 10px;
+            display: inline-block;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 id="main-heading">DOM Manipulation Demo</h1>
+    </header>
+    
+    <main>
+        <section>
+            <p id="changeable-text">This text will change when you click the button below.</p>
+            <button id="text-changer">Change Text</button>
+        </section>
+        
+        <section>
+            <div id="style-box" class="box">Hover over me!</div>
+            <button id="color-changer">Change Color</button>
+        </section>
+        
+        <section>
+            <div id="element-container">
+                <p>Existing element</p>
+            </div>
+            <button id="toggle-element">Toggle Element</button>
+        </section>
+    </main>
+    
+    <footer>
+        <p>Assignment completed by [Your Name]</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
